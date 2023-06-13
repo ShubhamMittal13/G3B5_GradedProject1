@@ -4,25 +4,25 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		AdminDepartment ad= new AdminDepartment();
-		System.out.println("Welcome to "+ad.departmentName());
-		System.out.println(ad.getTodaysWork());
-		System.out.println(ad.getWorkDeadline());
-		System.out.println(ad.isTodayAHoliday()+"\n");
+		AdminDepartment adminDepartment = new AdminDepartment();
+		System.out.println("Welcome to "+adminDepartment.departmentName());
+		System.out.println(adminDepartment.getTodaysWork());
+		System.out.println(adminDepartment.getWorkDeadline());
+		System.out.println(adminDepartment.isTodayAHoliday()+"\n");
 		
-		HrDepartment hd= new HrDepartment();
-		System.out.println("Welcome to "+hd.departmentName());
-		System.out.println(hd.doActivity());
-		System.out.println(hd.getTodaysWork());
-		System.out.println(hd.getWorkDeadline());
-		System.out.println(hd.isTodayAHoliday()+"\n");
+		HrDepartment hrDepartment = new HrDepartment();
+		System.out.println("Welcome to "+hrDepartment.departmentName());
+		System.out.println(hrDepartment.doActivity());
+		System.out.println(hrDepartment.getTodaysWork());
+		System.out.println(hrDepartment.getWorkDeadline());
+		System.out.println(hrDepartment.isTodayAHoliday()+"\n");
 		
-		TechDepartment td = new TechDepartment();
-		System.out.println("Welcome to "+td.departmentName());
-		System.out.println(td.getTodaysWork());
-		System.out.println(td.getWorkDeadline());
-		System.out.println(td.getTechStackInformation());
-		System.out.println(td.isTodayAHoliday());
+		TechDepartment techDepartment = new TechDepartment();
+		System.out.println("Welcome to "+techDepartment.departmentName());
+		System.out.println(techDepartment.getTodaysWork());
+		System.out.println(techDepartment.getWorkDeadline());
+		System.out.println(techDepartment.getTechStackInformation());
+		System.out.println(techDepartment.isTodayAHoliday());
 		
 
 	}
