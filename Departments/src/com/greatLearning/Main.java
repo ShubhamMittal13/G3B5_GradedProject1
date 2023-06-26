@@ -1,5 +1,9 @@
 package com.greatLearning;
 
+import com.greatLearning.adminDepartment.AdminDepartment;
+import com.greatLearning.hrDepartment.HrDepartment;
+import com.greatLearning.techDepartment.TechDepartment;
+
 public class Main {
 
 	public static void main(String[] args) {
