@@ -1,6 +1,8 @@
-package com.greatLearning;
+package com.greatLearning.techDepartment;
 
-public class TechDepartment extends SuperDepartment{
+import com.greatLearning.superDepartment.SuperDepartment;
+
+public class TechDepartment extends SuperDepartment {
 	@Override
 	public String departmentName() {
 		return("Tech Department");

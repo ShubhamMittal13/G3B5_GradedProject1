@@ -1,4 +1,4 @@
-package com.greatLearning;
+package com.greatLearning.superDepartment;
 
 public class SuperDepartment {
 
